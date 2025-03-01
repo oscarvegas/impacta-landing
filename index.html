@@ -393,7 +393,7 @@
                 </div>
             </div>
 
-            <div style="clear: both; padding-top: 2rem;"></div>
+            <div style="clear: both;"></div>
         </div>
 
     </body>
@@ -404,8 +404,9 @@
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    <!-- Initialize Swiper -->
+    
     <script>
+        // Initialize Swiper
         var swiper = new Swiper(".home-slider-wrapper", {
         navigation: {
             nextEl: ".swiper-button-next",
@@ -415,21 +416,20 @@
 
 
         // AOS
-
         document.querySelector('html').classList.remove('no-js');
         if (!window.Cypress) {
             const scrollCounter = document.querySelector('.js-scroll-counter');
 
             AOS.init({
-            mirror: true
+                mirror: true
             });
 
             document.addEventListener('aos:in', function(e) {
-            console.log('in!', e.detail);
+                //console.log('in!', e.detail);
             });
 
             window.addEventListener('scroll', function() {
-            scrollCounter.innerHTML = window.pageYOffset;
+                scrollCounter.innerHTML = window.pageYOffset;
             });
         }
     </script>

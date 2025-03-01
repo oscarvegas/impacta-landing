@@ -8,13 +8,8 @@
  * El archivo `sass-style.scss` es el encargado de todo el estilo de la landing page.
     `sass --watch public/css/sass-style.scss public/css/style.css`
  * Los archivos utilizados estan en la carpeta public la cual tiene `img` y `css` respectivamente.
-
-## Faltaron
-
- * animacion AOS basada en la libreria (https://michalsnik.github.io/aos/)
+ * Animacion basica de AOS basada en la libreria (https://michalsnik.github.io/aos/)
  * Carrusel de imagenes usando Swiper (https://swiperjs.com/demos)
-
- Ambas librerias fueron investigadas y conocidas pero no pude implementarlas por falta de tiempo.
 
 
 
