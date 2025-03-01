@@ -7,6 +7,10 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <!-- AOS Animation -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
     <body>
 
@@ -41,15 +45,49 @@
             </div>
         </div>
 
-        <div class="home-slider-wrapper">
-            <div class="slide-card fade">
-                <img src="public/img/home-slider/image-1.webp">
-                <div class="phrase-text">
-                    <p>
-                        A veces, somos gente normal
-                    </p>
+        <div class="swiper home-slider-wrapper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide-card">
+                    <img src="public/img/home-slider/image-1.webp">
+                    <div class="phrase-text">
+                        <p>
+                            A veces, somos gente normal
+                        </p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide-card">
+                    <img src="public/img/home-slider/image-2.webp">
+                    <div class="phrase-text">
+                        <p>
+                            Los viejos, tambien tienen buenas ideas
+                        </p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide-card">
+                    <img src="public/img/home-slider/image-3.webp">
+                    <div class="phrase-text">
+                        <p>
+                            La familia, es lo que dice Toretto
+                        </p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide-card">
+                    <img src="public/img/home-slider/image-4.webp">
+                    <div class="phrase-text">
+                        <p>
+                            Tiburon: &iquest;Que buscas en la orilla?
+                        </p>
+                    </div>
                 </div>
             </div>
+        
+            <div class="swiper-button-next"></div>
+
+            <div class="swiper-button-prev"></div>
+
         </div> 
         
 
@@ -58,7 +96,9 @@
                 SCROLL
             </div>
 
-            <div class="service-card left-card">
+            <div class="js-scroll-counter scroll-counter" style="display: none;"></div>
+            
+            <div class="service-card left-card aos-item" data-aos="fade-right">
                 <div class="card-image image-card-one">
                     <div class="red-bg-wrapper">
 
@@ -81,7 +121,7 @@
                 </div>
             </div>
 
-            <div class="service-card right-card">
+            <div class="service-card right-card aos-item" data-aos="fade-left">
                 <div class="card-image image-card-two">
                     
                     <div class="red-bg-wrapper">
@@ -104,7 +144,7 @@
                 </div>
             </div>
 
-            <div class="service-card left-card">
+            <div class="service-card left-card aos-item" data-aos="fade-right">
                 <div class="card-image image-card-three">
                     <div class="red-bg-wrapper">
                         
@@ -125,7 +165,7 @@
                 </div>
             </div>
 
-            <div class="service-card right-card">
+            <div class="service-card right-card aos-item" data-aos="fade-left">
                 <div class="card-image image-card-four">
                     <div class="red-bg-wrapper">
                         
@@ -155,17 +195,13 @@
 
         <div class="punch-phrase-ad">
             
-            <div class="blue-line">
-
-                
-                
-            </div>
-
+            <div class="blue-line"></div>
+            
             <h1>
-                V E N D E M O S &nbsp;&nbsp;H U M O&nbsp;&nbsp;  C O N&nbsp;&nbsp;  M U C H A&nbsp;&nbsp;  P A S I O N
+                V E N D E M O S &nbsp;&nbsp;H U M O&nbsp;&nbsp;  C O N&nbsp;&nbsp;  M U C H A&nbsp;&nbsp;  P A S I &Oacute; N
             </h1>
             
-            <img src="public/img/preparing_a_cocktail.png" />
+            <img src="public/img/preparing_a_cocktail.png" class="aos-item" data-aos="fade-up" />
             
             
         </div>
@@ -176,42 +212,42 @@
 
         <div class="our-clients-wrapper">
             
-            <div class="client-box">
+            <div class="client-box aos-item" data-aos="flip-left">
                 <img src="public/img/clients/ai-campo.svg" />
             </div>
-            <div class="client-box">
+            <div class="client-box aos-item" data-aos="flip-left">
                 <img src="public/img/clients/basf.svg" />
             </div>
-            <div class="client-box">
+            <div class="client-box aos-item" data-aos="flip-left">
                 <img src="public/img/clients/ferrovial.svg" />
             </div>
-            <div class="client-box">
+            <div class="client-box aos-item" data-aos="flip-left">
                 <img src="public/img/clients/kpmg.svg" />
             </div>
-            <div class="client-box">
+            <div class="client-box aos-item" data-aos="flip-left">
                 <img src="public/img/clients/corpo.svg" />
             </div>
-            <div class="client-box">
+            <div class="client-box aos-item" data-aos="flip-left">
                 <img src="public/img/clients/bmi.svg" />
             </div>
-            <div class="client-box">
+            <div class="client-box aos-item" data-aos="flip-left">
                 <img src="public/img/clients/brita.svg" />
             </div>
 
-            <div class="client-box double-sized">
+            <div class="client-box double-sized aos-item" data-aos="flip-right">
                 <img src="public/img/clients/cajamar.svg" />
             </div>
-            <div class="client-box double-sized">
+            <div class="client-box double-sized aos-item" data-aos="flip-right">
                 <img src="public/img/clients/cepsr.svg" />
             </div>
 
-            <div class="client-box">
+            <div class="client-box aos-item" data-aos="flip-right">
                 <img src="public/img/clients/schneider.svg" />
             </div>
-            <div class="client-box">
+            <div class="client-box aos-item" data-aos="flip-right">
                 <img src="public/img/clients/hill.svg" />
             </div>
-            <div class="client-box">
+            <div class="client-box aos-item" data-aos="flip-right">
                 <img src="public/img/clients/broseta.svg" />
             </div>
 
@@ -351,10 +387,50 @@
                         <img class="facebook-logo" src="public/img/logos/facebook-logo.svg" />
                     </a>
                 </p>
+
+                <div class="impacta-logo-dark"> 
+                    <img src="public/img/logos/impacta-logo-white.svg" />
+                </div>
             </div>
 
             <div style="clear: both; padding-top: 2rem;"></div>
         </div>
 
     </body>
+
+    <!-- AOS SCRIPT -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".home-slider-wrapper", {
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        });
+
+
+        // AOS
+
+        document.querySelector('html').classList.remove('no-js');
+        if (!window.Cypress) {
+            const scrollCounter = document.querySelector('.js-scroll-counter');
+
+            AOS.init({
+            mirror: true
+            });
+
+            document.addEventListener('aos:in', function(e) {
+            console.log('in!', e.detail);
+            });
+
+            window.addEventListener('scroll', function() {
+            scrollCounter.innerHTML = window.pageYOffset;
+            });
+        }
+    </script>
 </html>

@@ -60,6 +60,8 @@ body .main-banner .menu-socials a img, body .main-banner .menu-socials a:visited
 body .home-slider-wrapper {
   position: relative;
   margin: 0;
+  width: 100%;
+  height: 100%;
 }
 body .home-slider-wrapper .slide-card img {
   width: 100%;
@@ -68,9 +70,9 @@ body .home-slider-wrapper .slide-card .phrase-text {
   background-image: linear-gradient(to right, #E2001A, rgba(255, 0, 0, 0));
   padding-left: 2rem;
   position: absolute;
-  bottom: 0;
+  bottom: 0.25rem;
   width: 40%;
-  height: 98%;
+  height: 100%;
   display: flex;
 }
 body .home-slider-wrapper .slide-card .phrase-text p {
@@ -317,7 +319,7 @@ body .newsletter a, body .newsletter a:visited {
 }
 body .footer-impacta {
   background-color: #001c3a;
-  padding: 1rem 2rem;
+  padding: 2rem 1rem 0.5rem 1rem;
 }
 body .footer-impacta .footer-section {
   float: left;
@@ -340,6 +342,13 @@ body .footer-impacta .footer-section img {
 }
 body .footer-impacta .footer-section img.image-payments {
   width: 1.5rem;
+}
+body .footer-impacta .footer-section .impacta-logo-dark {
+  float: right;
+  margin-top: 2.5rem;
+}
+body .footer-impacta .footer-section .impacta-logo-dark img {
+  width: 8rem;
 }
 
 /*# sourceMappingURL=style.css.map */
