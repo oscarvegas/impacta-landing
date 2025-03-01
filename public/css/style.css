@@ -163,7 +163,7 @@ body .punch-phrase-ad .blue-line {
   background-color: #001c3a;
   height: 15rem;
   position: absolute;
-  top: 4rem;
+  top: 8rem;
   width: 100%;
 }
 body .punch-phrase-ad img {
@@ -175,13 +175,13 @@ body .punch-phrase-ad img {
 body .punch-phrase-ad h1 {
   color: #FFF;
   position: absolute;
-  top: 10rem;
+  top: 12rem;
   width: 100%;
   z-index: 1;
   text-align: center;
 }
 body .our-clients-title {
-  padding: 12rem 4rem 4rem 4rem;
+  padding: 18rem 4rem 4rem 4rem;
   background-image: linear-gradient(#FFF, #E2001A);
 }
 body .our-clients-title h3 {
