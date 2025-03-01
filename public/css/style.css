@@ -1,0 +1,345 @@
+body {
+  font: 100% "Outfit", serif;
+  margin: 0;
+  background-color: #F9F9F9;
+}
+body .banner-small-add {
+  background-color: #E2001A;
+  color: #FFF;
+  font-size: 8pt;
+  text-align: center;
+  padding: 0.5rem;
+}
+body .banner-small-add a, body .banner-small-add a:visited, body .banner-small-add a:hover {
+  color: #FFF;
+}
+body .main-banner .impacta-logo {
+  float: left;
+  padding: 1rem 2rem;
+}
+body .main-banner .impacta-logo img {
+  height: 2rem;
+}
+body .main-banner .menu-top {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 0.25rem;
+}
+body .main-banner .menu-top ul li {
+  padding: 0.25rem 0.5rem;
+  display: inline;
+  list-style: none;
+  color: #E2001A;
+  font-size: 1rem;
+}
+body .main-banner .menu-top ul li a, body .main-banner .menu-top ul li a:visited {
+  color: #E2001A;
+  text-decoration: none;
+}
+body .main-banner .menu-top ul li a:hover, body .main-banner .menu-top ul li a:visited:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+}
+body .main-banner .menu-socials {
+  float: right;
+  padding: 1.5rem;
+}
+body .main-banner .menu-socials a, body .main-banner .menu-socials a:visited {
+  color: #E2001A;
+  text-decoration: none;
+}
+body .main-banner .menu-socials a:hover, body .main-banner .menu-socials a:visited:hover {
+  opacity: 0.7;
+}
+body .main-banner .menu-socials a img, body .main-banner .menu-socials a:visited img {
+  filter: invert(85%) sepia(243%) saturate(1576%) hue-rotate(-21deg) brightness(130%) contrast(100%);
+  height: 1rem;
+  margin-left: 0.75rem;
+}
+body .home-slider-wrapper {
+  position: relative;
+  margin: 0;
+}
+body .home-slider-wrapper .slide-card img {
+  width: 100%;
+}
+body .home-slider-wrapper .slide-card .phrase-text {
+  background-image: linear-gradient(to right, #E2001A, rgba(255, 0, 0, 0));
+  padding-left: 2rem;
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+  height: 98%;
+  display: flex;
+}
+body .home-slider-wrapper .slide-card .phrase-text p {
+  color: #FFF;
+  font-size: 4.5rem;
+  font-weight: bolder;
+  line-height: 1;
+  align-self: flex-end;
+  margin-block-end: 1rem;
+}
+body .home-services {
+  padding: 1rem 5rem 3rem 5rem;
+  background-color: #F9F9F9;
+}
+body .home-services .scroll-down-service {
+  text-align: center;
+  color: #E2001A;
+  margin-bottom: 1rem;
+}
+body .home-services .service-card {
+  margin: 2rem 0.5rem;
+  width: 45%;
+  padding: 0.25rem;
+}
+body .home-services .service-card.left-card {
+  float: left;
+  clear: left;
+}
+body .home-services .service-card.right-card {
+  float: right;
+  clear: right;
+}
+body .home-services .service-card .card-image {
+  height: 13rem;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  border-radius: 0.25rem;
+}
+body .home-services .service-card .card-image .red-bg-wrapper {
+  background-color: rgba(226, 0, 26, 0.5);
+  height: 100%;
+  position: relative;
+  border-radius: 0.25rem;
+}
+body .home-services .service-card .card-image .red-bg-wrapper img {
+  height: 11rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+  filter: brightness(0) invert(1);
+}
+body .home-services .service-card .card-image .red-bg-wrapper .rounded-number-white {
+  width: 2.5rem;
+  height: 2.1rem;
+  padding-top: 0.2rem;
+  border-radius: 100%;
+  background-color: #FFF;
+  color: #E2001A;
+  text-align: center;
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+  font-size: 120%;
+  font-weight: bold;
+}
+body .home-services .service-card .card-image.image-card-one {
+  background-image: url(../img/services/advanced-technology.jpg);
+}
+body .home-services .service-card .card-image.image-card-two {
+  background-image: url(../img/services/competitive-setting.jpg);
+}
+body .home-services .service-card .card-image.image-card-three {
+  background-image: url(../img/services/abstract-background.jpg);
+}
+body .home-services .service-card .card-image.image-card-four {
+  background-image: url(../img/services/success-highlighted-with.jpg);
+}
+body .home-services .service-card h1 {
+  font-size: 2.25rem;
+}
+body .punch-phrase-ad {
+  clear: both;
+  position: relative;
+  height: 24rem;
+}
+body .punch-phrase-ad .blue-line {
+  background-color: #001c3a;
+  height: 20rem;
+  position: absolute;
+  top: 4rem;
+  width: 100%;
+}
+body .punch-phrase-ad img {
+  width: 35%;
+  position: absolute;
+  top: 0;
+  right: 33%;
+}
+body .punch-phrase-ad h1 {
+  color: #FFF;
+  position: absolute;
+  top: 16rem;
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+}
+body .our-clients-title {
+  padding: 12rem 4rem 4rem 4rem;
+  background-image: linear-gradient(#FFF, #E2001A);
+}
+body .our-clients-title h3 {
+  color: #FFF;
+  text-align: center;
+}
+body .our-clients-wrapper {
+  background-color: #E2001A;
+  padding: 0 0.5rem;
+}
+body .our-clients-wrapper .client-box {
+  height: 8rem;
+  width: 8rem;
+  float: left;
+  margin: 0.1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+body .our-clients-wrapper .client-box.double-sized {
+  width: 16.2rem;
+}
+body .our-clients-wrapper .client-box img {
+  padding-top: 3rem;
+  height: 1.25rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body .contact-form {
+  background-color: #E2001A;
+  border-top: 1px solid #FFF;
+  padding: 4rem 6rem;
+  color: #FFF;
+}
+body .contact-form .contact-form-fields {
+  width: 48%;
+  float: left;
+}
+body .contact-form .contact-form-fields input {
+  border-radius: 0.25rem;
+  height: 1rem;
+  padding: 0.2rem 0.5rem;
+  margin: 0.1rem;
+  width: 42%;
+}
+body .contact-form .contact-form-fields input::placeholder {
+  font-family: "Outfit", serif;
+  font-weight: bold;
+  color: #E2001A;
+}
+body .contact-form .contact-form-fields textarea {
+  width: 92%;
+  margin-top: 0.1rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.25rem;
+}
+body .contact-form .contact-form-fields textarea::placeholder {
+  font-weight: bold;
+  color: #E2001A;
+  font-family: "Outfit", serif;
+}
+body .contact-form .contact-form-fields .help-text {
+  font-size: 70%;
+}
+body .contact-form .contact-form-select {
+  width: 47%;
+  float: right;
+}
+body .contact-form .contact-form-select .radios-wrapper {
+  width: 10%;
+  float: left;
+}
+body .contact-form .contact-form-select .radios-wrapper input {
+  border: 1px solid #FFF;
+  width: 100%;
+  height: 1.5rem;
+  margin: 0.4rem 0.2rem;
+  background-color: #E2001A;
+}
+body .contact-form .contact-form-select .labels-wrapper {
+  float: left;
+  width: 85%;
+}
+body .contact-form .contact-form-select .labels-wrapper label {
+  border: 1px solid #FFF;
+  padding: 0.25rem 0.5rem;
+  display: block;
+  margin: 0.5rem 0.2rem;
+  font-size: 90%;
+  border-radius: 0.25rem;
+}
+body .contact-form .contact-form-select .conditions-check {
+  float: left;
+  width: 45%;
+  padding-top: 2rem;
+}
+body .contact-form .contact-form-select .conditions-check .check-control {
+  padding-top: 0.25rem;
+  float: left;
+  width: 20%;
+}
+body .contact-form .contact-form-select .conditions-check .check-control input {
+  transform: scale(2);
+  margin: 0.4rem 0.2rem;
+}
+body .contact-form .contact-form-select .conditions-check .label-wrapper {
+  float: left;
+  width: 75%;
+}
+body .contact-form .contact-form-select .conditions-check .label-wrapper label {
+  font-size: 65%;
+}
+body .contact-form .contact-form-select .form-submit-btn {
+  float: right;
+  width: 45%;
+  padding-top: 2rem;
+  border-radius: 0.25rem;
+}
+body .contact-form .contact-form-select .form-submit-btn button {
+  width: 100%;
+  background-color: yellow;
+  color: #E2001A;
+  font-family: "Outfit", serif;
+  border-color: #E2001A;
+  border-radius: 1rem;
+  padding: 0.2rem;
+}
+body .newsletter {
+  color: #E2001A;
+  padding: 0.4rem;
+  text-align: center;
+  font-size: 80%;
+}
+body .newsletter a, body .newsletter a:visited {
+  color: #E2001A;
+}
+body .footer-impacta {
+  background-color: #001c3a;
+  padding: 1rem 2rem;
+}
+body .footer-impacta .footer-section {
+  float: left;
+  width: 24%;
+  padding: 0.25rem;
+}
+body .footer-impacta .footer-section h4 {
+  color: #E2001A;
+  font-size: 75%;
+}
+body .footer-impacta .footer-section p {
+  color: #FFF;
+  font-size: 65%;
+  line-height: 2;
+}
+body .footer-impacta .footer-section img {
+  width: 1rem;
+  padding-left: 0.25rem;
+  height: auto;
+}
+body .footer-impacta .footer-section img.image-payments {
+  width: 1.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */
