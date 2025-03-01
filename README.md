@@ -13,7 +13,7 @@
 
     - animacion AOS basada en la libreria
     - Carrusel de imagenes usando Slider
+    - Interacciones Javascript basicas en boton de enviar y otros
 
-Ambas librerias fueron averiguadas y leidas pero por cuestion de tiempo no pude terminarlo
 
 
