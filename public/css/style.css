@@ -157,11 +157,11 @@ body .home-services .service-card h1 {
 body .punch-phrase-ad {
   clear: both;
   position: relative;
-  height: 24rem;
+  height: 18rem;
 }
 body .punch-phrase-ad .blue-line {
   background-color: #001c3a;
-  height: 20rem;
+  height: 15rem;
   position: absolute;
   top: 4rem;
   width: 100%;
@@ -175,7 +175,7 @@ body .punch-phrase-ad img {
 body .punch-phrase-ad h1 {
   color: #FFF;
   position: absolute;
-  top: 16rem;
+  top: 10rem;
   width: 100%;
   z-index: 1;
   text-align: center;
