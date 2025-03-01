@@ -11,9 +11,9 @@
 
 ## faltaron
 
-    - animacion AOS basada en la libreria
-    - Carrusel de imagenes usando Slider
-    - Interacciones Javascript basicas en boton de enviar y otros
+ * animacion AOS basada en la libreria
+ * Carrusel de imagenes usando Slider
+ * Interacciones Javascript basicas en boton de enviar y otros
 
 
 
