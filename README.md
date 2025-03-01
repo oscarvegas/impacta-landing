@@ -11,8 +11,8 @@
 
 ## Faltaron
 
- * animacion AOS basada en la libreria
- * Carrusel de imagenes usando Slider
+ * animacion AOS basada en la libreria (https://michalsnik.github.io/aos/)
+ * Carrusel de imagenes usando Swiper (https://swiperjs.com/demos)
  * Interacciones Javascript basicas en boton de enviar y otros
 
 
