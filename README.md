@@ -13,7 +13,8 @@
 
  * animacion AOS basada en la libreria (https://michalsnik.github.io/aos/)
  * Carrusel de imagenes usando Swiper (https://swiperjs.com/demos)
- * Interacciones Javascript basicas en boton de enviar y otros
+
+ Ambas librerias fueron investigadas y conocidas pero no pude implementarlas por falta de tiempo.
 
 
 
